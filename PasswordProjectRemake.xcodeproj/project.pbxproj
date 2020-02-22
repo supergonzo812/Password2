@@ -13,6 +13,7 @@
 		720ECA702401D170007F4714 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720ECA6E2401D170007F4714 /* Main.storyboard */; };
 		720ECA722401D171007F4714 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 720ECA712401D171007F4714 /* Assets.xcassets */; };
 		720ECA752401D171007F4714 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720ECA732401D171007F4714 /* LaunchScreen.storyboard */; };
+		720ECA802401D3F3007F4714 /* PasswordControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720ECA7F2401D3F3007F4714 /* PasswordControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		720ECA712401D171007F4714 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		720ECA742401D171007F4714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		720ECA762401D171007F4714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		720ECA7F2401D3F3007F4714 /* PasswordControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		720ECA672401D170007F4714 /* PasswordProjectRemake */ = {
 			isa = PBXGroup;
 			children = (
+				720ECA7E2401D3BC007F4714 /* CustomControls */,
 				720ECA682401D170007F4714 /* AppDelegate.swift */,
 				720ECA6A2401D170007F4714 /* SceneDelegate.swift */,
 				720ECA6C2401D170007F4714 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				720ECA762401D171007F4714 /* Info.plist */,
 			);
 			path = PasswordProjectRemake;
+			sourceTree = "<group>";
+		};
+		720ECA7E2401D3BC007F4714 /* CustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				720ECA7F2401D3F3007F4714 /* PasswordControl.swift */,
+			);
+			path = CustomControls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				720ECA802401D3F3007F4714 /* PasswordControl.swift in Sources */,
 				720ECA6D2401D170007F4714 /* ViewController.swift in Sources */,
 				720ECA692401D170007F4714 /* AppDelegate.swift in Sources */,
 				720ECA6B2401D170007F4714 /* SceneDelegate.swift in Sources */,
